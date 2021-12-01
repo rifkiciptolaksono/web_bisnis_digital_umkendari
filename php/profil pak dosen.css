@@ -1,0 +1,1596 @@
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+.elementor-kit-4817 {
+    --e-global-color-primary: #61B1D8;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-color-25f9db6: #F00606;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+}
+
+.elementor-widget-heading .elementor-heading-title {
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-image .widget-image-caption {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-text-editor {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap,
+.elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap {
+    color: var(--e-global-color-primary);
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-button .elementor-button {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-divider {
+    --divider-color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-divider .elementor-divider__text {
+    color: var(--e-global-color-secondary);
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-divider.elementor-view-stacked .elementor-icon {
+    background-color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-divider.elementor-view-framed .elementor-icon,
+.elementor-widget-divider.elementor-view-default .elementor-icon {
+    color: var(--e-global-color-secondary);
+    border-color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-divider.elementor-view-framed .elementor-icon,
+.elementor-widget-divider.elementor-view-default .elementor-icon svg {
+    fill: var(--e-global-color-secondary);
+}
+
+.elementor-widget-image-box .elementor-image-box-title {
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-image-box .elementor-image-box-description {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-icon.elementor-view-stacked .elementor-icon {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-icon.elementor-view-framed .elementor-icon,
+.elementor-widget-icon.elementor-view-default .elementor-icon {
+    color: var(--e-global-color-primary);
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-icon.elementor-view-framed .elementor-icon,
+.elementor-widget-icon.elementor-view-default .elementor-icon svg {
+    fill: var(--e-global-color-primary);
+}
+
+.elementor-widget-icon-box.elementor-view-stacked .elementor-icon {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-icon-box.elementor-view-framed .elementor-icon,
+.elementor-widget-icon-box.elementor-view-default .elementor-icon {
+    fill: var(--e-global-color-primary);
+    color: var(--e-global-color-primary);
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-icon-box .elementor-icon-box-title {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-icon-box .elementor-icon-box-title,
+.elementor-widget-icon-box .elementor-icon-box-title a {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-icon-box .elementor-icon-box-description {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-star-rating .elementor-star-rating__title {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-image-gallery .gallery-item .gallery-caption {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after {
+    border-color: var(--e-global-color-text);
+}
+
+.elementor-widget-icon-list .elementor-icon-list-icon i {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-icon-list .elementor-icon-list-icon svg {
+    fill: var(--e-global-color-primary);
+}
+
+.elementor-widget-icon-list .elementor-icon-list-text {
+    color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item>.elementor-icon-list-text,
+.elementor-widget-icon-list .elementor-icon-list-item>a {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-counter .elementor-counter-number-wrapper {
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-counter .elementor-counter-title {
+    color: var(--e-global-color-secondary);
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-progress .elementor-title {
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-testimonial .elementor-testimonial-content {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-testimonial .elementor-testimonial-name {
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-testimonial .elementor-testimonial-job {
+    color: var(--e-global-color-secondary);
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-tabs .elementor-tab-title,
+.elementor-widget-tabs .elementor-tab-title a {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-tabs .elementor-tab-title.elementor-active,
+.elementor-widget-tabs .elementor-tab-title.elementor-active a {
+    color: var(--e-global-color-accent);
+}
+
+.elementor-widget-tabs .elementor-tab-title {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-tabs .elementor-tab-content {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-accordion .elementor-accordion-icon,
+.elementor-widget-accordion .elementor-accordion-title {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-accordion .elementor-accordion-icon svg {
+    fill: var(--e-global-color-primary);
+}
+
+.elementor-widget-accordion .elementor-active .elementor-accordion-icon,
+.elementor-widget-accordion .elementor-active .elementor-accordion-title {
+    color: var(--e-global-color-accent);
+}
+
+.elementor-widget-accordion .elementor-active .elementor-accordion-icon svg {
+    fill: var(--e-global-color-accent);
+}
+
+.elementor-widget-accordion .elementor-accordion-title {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-accordion .elementor-tab-content {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-toggle .elementor-toggle-title,
+.elementor-widget-toggle .elementor-toggle-icon {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-toggle .elementor-toggle-icon svg {
+    fill: var(--e-global-color-primary);
+}
+
+.elementor-widget-toggle .elementor-tab-title.elementor-active a,
+.elementor-widget-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon {
+    color: var(--e-global-color-accent);
+}
+
+.elementor-widget-toggle .elementor-toggle-title {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-toggle .elementor-tab-content {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-alert .elementor-alert-title {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-alert .elementor-alert-description {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-retina .hfe-retina-image-container .hfe-retina-img {
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-retina .widget-image-caption {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-copyright .hfe-copyright-wrapper a,
+.elementor-widget-copyright .hfe-copyright-wrapper {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-copyright .hfe-copyright-wrapper,
+.elementor-widget-copyright .hfe-copyright-wrapper a {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-navigation-menu a.hfe-menu-item,
+.elementor-widget-navigation-menu a.hfe-sub-menu-item {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-navigation-menu .menu-item a.hfe-menu-item,
+.elementor-widget-navigation-menu .sub-menu a.hfe-sub-menu-item {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-navigation-menu .menu-item a.hfe-menu-item:hover,
+.elementor-widget-navigation-menu .sub-menu a.hfe-sub-menu-item:hover,
+.elementor-widget-navigation-menu .menu-item.current-menu-item a.hfe-menu-item,
+.elementor-widget-navigation-menu .menu-item a.hfe-menu-item.highlighted,
+.elementor-widget-navigation-menu .menu-item a.hfe-menu-item:focus {
+    color: var(--e-global-color-accent);
+}
+
+.elementor-widget-navigation-menu .hfe-nav-menu-layout:not(.hfe-pointer__framed) .menu-item.parent a.hfe-menu-item:before,
+.elementor-widget-navigation-menu .hfe-nav-menu-layout:not(.hfe-pointer__framed) .menu-item.parent a.hfe-menu-item:after {
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-navigation-menu .hfe-nav-menu-layout:not(.hfe-pointer__framed) .menu-item.parent .sub-menu .hfe-has-submenu-container a:after {
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-navigation-menu .hfe-pointer__framed .menu-item.parent a.hfe-menu-item:before,
+.elementor-widget-navigation-menu .hfe-pointer__framed .menu-item.parent a.hfe-menu-item:after {
+    border-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-navigation-menu .sub-menu li a.hfe-sub-menu-item,
+.elementor-widget-navigation-menu nav.hfe-dropdown li a.hfe-sub-menu-item,
+.elementor-widget-navigation-menu nav.hfe-dropdown li a.hfe-menu-item,
+.elementor-widget-navigation-menu nav.hfe-dropdown-expandible li a.hfe-menu-item,
+.elementor-widget-navigation-menu nav.hfe-dropdown-expandible li a.hfe-sub-menu-item {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-navigation-menu .menu-item a.hfe-menu-item.elementor-button {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-navigation-menu .menu-item a.hfe-menu-item.elementor-button:hover {
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-page-title .elementor-heading-title,
+.elementor-widget-page-title .hfe-page-title a {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-page-title .hfe-page-title-icon i {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-page-title .hfe-page-title-icon svg {
+    fill: var(--e-global-color-primary);
+}
+
+.elementor-widget-hfe-site-title .elementor-heading-title,
+.elementor-widget-hfe-site-title .hfe-heading a {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-hfe-site-title .hfe-heading-text {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-hfe-site-title .hfe-icon i {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-hfe-site-title .hfe-icon svg {
+    fill: var(--e-global-color-primary);
+}
+
+.elementor-widget-hfe-site-tagline .hfe-site-tagline {
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+    color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-hfe-site-tagline .hfe-icon i {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-hfe-site-tagline .hfe-icon svg {
+    fill: var(--e-global-color-primary);
+}
+
+.elementor-widget-site-logo .hfe-site-logo-container .hfe-site-logo-img {
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-site-logo .widget-image-caption {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-hfe-search-button input[type="search"].hfe-search-form__input,
+.elementor-widget-hfe-search-button .hfe-search-icon-toggle {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-hfe-search-button .hfe-search-form__input {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-hfe-search-button .hfe-search-form__input::placeholder {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-hfe-search-button .hfe-search-form__container,
+.elementor-widget-hfe-search-button .hfe-search-icon-toggle .hfe-search-form__input,
+.elementor-widget-hfe-search-button .hfe-input-focus .hfe-search-icon-toggle .hfe-search-form__input {
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-hfe-search-button .hfe-search-form__input:focus::placeholder {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-hfe-search-button .hfe-search-form__container button#clear-with-button,
+.elementor-widget-hfe-search-button .hfe-search-form__container button#clear,
+.elementor-widget-hfe-search-button .hfe-search-icon-toggle button#clear {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-text-path {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-theme-site-logo .widget-image-caption {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-theme-site-title .elementor-heading-title {
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-theme-page-title .elementor-heading-title {
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-theme-post-title .elementor-heading-title {
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-theme-post-excerpt .elementor-widget-container {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-theme-post-content {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-theme-post-featured-image .widget-image-caption {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-theme-archive-title .elementor-heading-title {
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-archive-posts .elementor-post__title,
+.elementor-widget-archive-posts .elementor-post__title a {
+    color: var(--e-global-color-secondary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-archive-posts .elementor-post__meta-data {
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-archive-posts .elementor-post__excerpt p {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-archive-posts .elementor-post__read-more {
+    color: var(--e-global-color-accent);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-archive-posts .elementor-post__card .elementor-post__badge {
+    background-color: var(--e-global-color-accent);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-archive-posts .elementor-pagination {
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-archive-posts .elementor-posts-nothing-found {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-posts .elementor-post__title,
+.elementor-widget-posts .elementor-post__title a {
+    color: var(--e-global-color-secondary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-posts .elementor-post__meta-data {
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-posts .elementor-post__excerpt p {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-posts .elementor-post__read-more {
+    color: var(--e-global-color-accent);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-posts .elementor-post__card .elementor-post__badge {
+    background-color: var(--e-global-color-accent);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-posts .elementor-pagination {
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-portfolio a .elementor-portfolio-item__overlay {
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-portfolio .elementor-portfolio-item__title {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-portfolio .elementor-portfolio__filter {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-portfolio .elementor-portfolio__filter.elementor-active {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-gallery .elementor-gallery-item__title {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-gallery .elementor-gallery-item__description {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-gallery {
+    --galleries-title-color-normal: var(--e-global-color-primary);
+    --galleries-title-color-hover: var(--e-global-color-secondary);
+    --galleries-pointer-bg-color-hover: var(--e-global-color-accent);
+    --gallery-title-color-active: var(--e-global-color-secondary);
+    --galleries-pointer-bg-color-active: var(--e-global-color-accent);
+}
+
+.elementor-widget-gallery .elementor-gallery-title {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-form .elementor-field-group>label,
+.elementor-widget-form .elementor-field-subgroup label {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-form .elementor-field-group>label {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-form .elementor-field-type-html {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-form .elementor-field-group .elementor-field {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-form .elementor-field-group .elementor-field,
+.elementor-widget-form .elementor-field-subgroup label {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-form .elementor-button {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-form .e-form__buttons__wrapper__button-next {
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-form .elementor-button[type="submit"] {
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-form .e-form__buttons__wrapper__button-previous {
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-form .elementor-message {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-form .e-form__indicators__indicator,
+.elementor-widget-form .e-form__indicators__indicator__label {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-form {
+    --e-form-steps-indicator-inactive-primary-color: var(--e-global-color-text);
+    --e-form-steps-indicator-active-primary-color: var(--e-global-color-accent);
+    --e-form-steps-indicator-completed-primary-color: var(--e-global-color-accent);
+    --e-form-steps-indicator-progress-color: var(--e-global-color-accent);
+    --e-form-steps-indicator-progress-background-color: var(--e-global-color-text);
+    --e-form-steps-indicator-progress-meter-color: var(--e-global-color-text);
+}
+
+.elementor-widget-form .e-form__indicators__indicator__progress__meter {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-login .elementor-field-group>a {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-login .elementor-field-group>a:hover {
+    color: var(--e-global-color-accent);
+}
+
+.elementor-widget-login .elementor-form-fields-wrapper label {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-login .elementor-field-group .elementor-field {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-login .elementor-field-group .elementor-field,
+.elementor-widget-login .elementor-field-subgroup label {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-login .elementor-button {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-login .elementor-widget-container .elementor-login__logged-in-message {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-slides .elementor-slide-heading {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-slides .elementor-slide-description {
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-slides .elementor-slide-button {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-nav-menu .elementor-nav-menu .elementor-item {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item {
+    color: var(--e-global-color-text);
+    fill: var(--e-global-color-text);
+}
+
+.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item:hover,
+.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item.elementor-item-active,
+.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item.highlighted,
+.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item:focus {
+    color: var(--e-global-color-accent);
+    fill: var(--e-global-color-accent);
+}
+
+.elementor-widget-nav-menu .elementor-nav-menu--main:not(.e--pointer-framed) .elementor-item:before,
+.elementor-widget-nav-menu .elementor-nav-menu--main:not(.e--pointer-framed) .elementor-item:after {
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-nav-menu .e--pointer-framed .elementor-item:before,
+.elementor-widget-nav-menu .e--pointer-framed .elementor-item:after {
+    border-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-nav-menu .elementor-nav-menu--dropdown .elementor-item,
+.elementor-widget-nav-menu .elementor-nav-menu--dropdown .elementor-sub-item {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-animated-headline .elementor-headline-dynamic-wrapper path {
+    stroke: var(--e-global-color-accent);
+}
+
+.elementor-widget-animated-headline .elementor-headline-plain-text {
+    color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-animated-headline .elementor-headline {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-animated-headline {
+    --dynamic-text-color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-animated-headline .elementor-headline-dynamic-text {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-hotspot .widget-image-caption {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-hotspot {
+    --hotspot-color: var(--e-global-color-primary);
+    --hotspot-box-color: var(--e-global-color-secondary);
+    --tooltip-color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-hotspot .e-hotspot__label {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-hotspot .e-hotspot__tooltip {
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-price-list .elementor-price-list-header {
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-price-list .elementor-price-list-description {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-price-list .elementor-price-list-separator {
+    border-bottom-color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-price-table .elementor-price-table__header {
+    background-color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-price-table .elementor-price-table__heading {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-price-table .elementor-price-table__subheading {
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-price-table .elementor-price-table__price {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-price-table .elementor-price-table__original-price {
+    color: var(--e-global-color-secondary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-price-table .elementor-price-table__period {
+    color: var(--e-global-color-secondary);
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-price-table .elementor-price-table__features-list {
+    --e-price-table-features-list-color: var(--e-global-color-text);
+}
+
+.elementor-widget-price-table .elementor-price-table__features-list li {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-price-table .elementor-price-table__features-list li:before {
+    border-top-color: var(--e-global-color-text);
+}
+
+.elementor-widget-price-table .elementor-price-table__button {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-price-table .elementor-price-table__additional_info {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-price-table .elementor-price-table__ribbon-inner {
+    background-color: var(--e-global-color-accent);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-flip-box .elementor-flip-box__front .elementor-flip-box__layer__title {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-flip-box .elementor-flip-box__front .elementor-flip-box__layer__description {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-flip-box .elementor-flip-box__back .elementor-flip-box__layer__title {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-flip-box .elementor-flip-box__back .elementor-flip-box__layer__description {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-flip-box .elementor-flip-box__button {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-call-to-action .elementor-cta__title {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-call-to-action .elementor-cta__description {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-call-to-action .elementor-cta__button {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-call-to-action .elementor-ribbon-inner {
+    background-color: var(--e-global-color-accent);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-media-carousel .elementor-carousel-image-overlay {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-testimonial-carousel .elementor-testimonial__text {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-testimonial-carousel .elementor-testimonial__name {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-testimonial-carousel .elementor-testimonial__title {
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-reviews .elementor-testimonial__header,
+.elementor-widget-reviews .elementor-testimonial__name {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-reviews .elementor-testimonial__text {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-table-of-contents {
+    --header-color: var(--e-global-color-secondary);
+    --item-text-color: var(--e-global-color-text);
+    --item-text-hover-color: var(--e-global-color-accent);
+    --marker-color: var(--e-global-color-text);
+}
+
+.elementor-widget-table-of-contents .elementor-toc__header,
+.elementor-widget-table-of-contents .elementor-toc__header-title {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-table-of-contents .elementor-toc__list-item {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-countdown .elementor-countdown-item {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-countdown .elementor-countdown-digits {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-countdown .elementor-countdown-label {
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-countdown .elementor-countdown-expire--message {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-search-form input[type="search"].elementor-search-form__input {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-search-form .elementor-search-form__input,
+.elementor-widget-search-form .elementor-search-form__icon,
+.elementor-widget-search-form .elementor-lightbox .dialog-lightbox-close-button,
+.elementor-widget-search-form .elementor-lightbox .dialog-lightbox-close-button:hover,
+.elementor-widget-search-form.elementor-search-form--skin-full_screen input[type="search"].elementor-search-form__input {
+    color: var(--e-global-color-text);
+    fill: var(--e-global-color-text);
+}
+
+.elementor-widget-search-form .elementor-search-form__submit {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+    background-color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-author-box .elementor-author-box__name {
+    color: var(--e-global-color-secondary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-author-box .elementor-author-box__bio {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-author-box .elementor-author-box__button {
+    color: var(--e-global-color-secondary);
+    border-color: var(--e-global-color-secondary);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-author-box .elementor-author-box__button:hover {
+    border-color: var(--e-global-color-secondary);
+    color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-post-navigation span.post-navigation__prev--label {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-post-navigation span.post-navigation__next--label {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-post-navigation span.post-navigation__prev--label,
+.elementor-widget-post-navigation span.post-navigation__next--label {
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-post-navigation span.post-navigation__prev--title,
+.elementor-widget-post-navigation span.post-navigation__next--title {
+    color: var(--e-global-color-secondary);
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-widget-post-info .elementor-icon-list-item:not(:last-child):after {
+    border-color: var(--e-global-color-text);
+}
+
+.elementor-widget-post-info .elementor-icon-list-icon i {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-post-info .elementor-icon-list-icon svg {
+    fill: var(--e-global-color-primary);
+}
+
+.elementor-widget-post-info .elementor-icon-list-text,
+.elementor-widget-post-info .elementor-icon-list-text a {
+    color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-post-info .elementor-icon-list-item {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-sitemap .elementor-sitemap-title {
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+
+.elementor-widget-sitemap .elementor-sitemap-item,
+.elementor-widget-sitemap span.elementor-sitemap-list,
+.elementor-widget-sitemap .elementor-sitemap-item a {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-sitemap .elementor-sitemap-item {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-blockquote .elementor-blockquote__content {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-blockquote .elementor-blockquote__author {
+    color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-lottie {
+    --caption-color: var(--e-global-color-text);
+}
+
+.elementor-widget-lottie .e-lottie__caption {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-video-playlist .e-tabs-header .e-tabs-title {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-video-playlist .e-tabs-header .e-tabs-videos-count {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-video-playlist .e-tab-title .e-tab-title-text {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-video-playlist .e-tab-title .e-tab-title-text a {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-video-playlist .e-tab-title .e-tab-duration {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-video-playlist .e-tabs-items-wrapper .e-tab-title:where(.e-active, :hover) .e-tab-title-text {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-video-playlist .e-tabs-items-wrapper .e-tab-title:where(.e-active, :hover) .e-tab-title-text a {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-video-playlist .e-tabs-items-wrapper .e-tab-title:where(.e-active, :hover) .e-tab-duration {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-video-playlist .e-tabs-items-wrapper .e-section-title {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-video-playlist .e-tabs-inner-tabs .e-inner-tabs-wrapper .e-inner-tab-title a {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-video-playlist .e-tabs-inner-tabs .e-inner-tabs-content-wrapper .e-inner-tab-content .e-inner-tab-text {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-video-playlist .e-tabs-inner-tabs .e-inner-tabs-content-wrapper .e-inner-tab-content button {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-widget-video-playlist .e-tabs-inner-tabs .e-inner-tabs-content-wrapper .e-inner-tab-content button:hover {
+    color: var(--e-global-color-text);
+}
+
+.elementor-widget-paypal-button .elementor-button {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-widget-paypal-button .elementor-message {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-6692 .elementor-element.elementor-element-37698d7 .elementor-button {
+    background-color: #A3A3A3;
+}
+
+.elementor-6692 .elementor-element.elementor-element-37698d7 .elementor-button:hover,
+.elementor-6692 .elementor-element.elementor-element-37698d7 .elementor-button:focus {
+    background-color: #DD0000;
+}
+
+.elementor-6692 .elementor-element.elementor-element-396022c .elementor-button {
+    background-color: #A3A3A3;
+}
+
+.elementor-6692 .elementor-element.elementor-element-396022c .elementor-button:hover,
+.elementor-6692 .elementor-element.elementor-element-396022c .elementor-button:focus {
+    background-color: #DD0000;
+}
+
+.elementor-6692 .elementor-element.elementor-element-c24e7d9 .elementor-button {
+    background-color: #A3A3A3;
+}
+
+.elementor-6692 .elementor-element.elementor-element-c24e7d9 .elementor-button:hover,
+.elementor-6692 .elementor-element.elementor-element-c24e7d9 .elementor-button:focus {
+    background-color: #DD0000;
+}
+
+.elementor-6692 .elementor-element.elementor-element-ea41042 .elementor-button {
+    background-color: #A3A3A3;
+}
+
+.elementor-6692 .elementor-element.elementor-element-ea41042 .elementor-button:hover,
+.elementor-6692 .elementor-element.elementor-element-ea41042 .elementor-button:focus {
+    background-color: #DD0000;
+}
+
+.elementor-6692 .elementor-element.elementor-element-c9bb2c1 .elementor-accordion-icon,
+.elementor-6692 .elementor-element.elementor-element-c9bb2c1 .elementor-accordion-title {
+    color: #A3A3A3;
+}
+
+.elementor-6692 .elementor-element.elementor-element-c9bb2c1 .elementor-accordion-icon svg {
+    fill: #A3A3A3;
+}
+
+.elementor-6692 .elementor-element.elementor-element-c9bb2c1 .elementor-active .elementor-accordion-icon,
+.elementor-6692 .elementor-element.elementor-element-c9bb2c1 .elementor-active .elementor-accordion-title {
+    color: #DD0000;
+}
+
+.elementor-6692 .elementor-element.elementor-element-c9bb2c1 .elementor-active .elementor-accordion-icon svg {
+    fill: #DD0000;
+}
+
+.elementor-6692 .elementor-element.elementor-element-afc121c .elementor-button {
+    background-color: #A3A3A3;
+}
+
+.elementor-6692 .elementor-element.elementor-element-afc121c .elementor-button:hover,
+.elementor-6692 .elementor-element.elementor-element-afc121c .elementor-button:focus {
+    background-color: #DD0000;
+}
+
+ :root {
+    --page-title-display: none;
+}
+
+@media(min-width:768px) {
+    .elementor-6692 .elementor-element.elementor-element-ca45976 {
+        width: 16.137%;
+    }
+    .elementor-6692 .elementor-element.elementor-element-474808d {
+        width: 83.528%;
+    }
+    .elementor-6692 .elementor-element.elementor-element-f8cfb2f {
+        width: 9.823%;
+    }
+    .elementor-6692 .elementor-element.elementor-element-b7d8f90 {
+        width: 89.842%;
+    }
+}
+
+#google_language_translator a {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+.goog-te-gadget {
+    font-size: 0px !important;
+}
+
+.goog-branding {
+    display: none;
+}
+
+.goog-tooltip {
+    display: none !important;
+}
+
+.goog-tooltip:hover {
+    display: none !important;
+}
+
+.goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#google_language_translator select.goog-te-combo {
+    color: #32373c;
+}
+
+#flags {
+    display: none;
+}
+
+#google_language_translator {
+    color: transparent;
+}
+
+body {
+    top: 0px !important;
+}
+
+#glt-translate-trigger {
+    bottom: auto;
+    top: 0;
+    left: 20px;
+    right: auto;
+}
+
+.tool-container.tool-top {
+    top: 50px !important;
+    bottom: auto !important;
+}
+
+.tool-container.tool-top .arrow {
+    border-color: transparent transparent #d0cbcb;
+    top: -14px;
+}
+
+#glt-translate-trigger>span {
+    color: #ffffff;
+}
+
+#glt-translate-trigger {
+    background: #140500;
+}
+
+#infinite-handle span,
+.search-box>a,
+a.button,
+a.links-btn::after,
+.search-form .search-submit,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+    background-color: #a3a3a3
+}
+
+a.cta-button-primary,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+#infinite-handle span button {
+    background-color: #a3a3a3
+}
+
+#infinite-handle span:hover,
+.search-box>a:hover,
+a.button:hover,
+a.links-btn:hover::after,
+.search-form .search-submit:hover,
+a.cta-button-primary:hover,
+.nav-links a:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+#infinite-handle span button {
+    background-color: #727272
+}
+
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button.woocommerce:hover #respond input#submit.alt.disabled,
+.woocommerce #respond input#submit.alt.disabled:hover,
+.woocommerce #respond input#submit.alt:disabled,
+.woocommerce #respond input#submit.alt:disabled:hover,
+.woocommerce #respond input#submit.alt[disabled]:disabled,
+.woocommerce #respond input#submit.alt[disabled]:disabled:hover,
+.woocommerce a.button.alt.disabled,
+.woocommerce a.button.alt.disabled:hover,
+.woocommerce a.button.alt:disabled,
+.woocommerce a.button.alt:disabled:hover,
+.woocommerce a.button.alt[disabled]:disabled,
+.woocommerce a.button.alt[disabled]:disabled:hover,
+.woocommerce button.button.alt.disabled,
+.woocommerce button.button.alt.disabled:hover,
+.woocommerce button.button.alt:disabled,
+.woocommerce button.button.alt:disabled:hover,
+.woocommerce button.button.alt[disabled]:disabled,
+.woocommerce button.button.alt[disabled]:disabled:hover,
+.woocommerce input.button.alt.disabled,
+.woocommerce input.button.alt.disabled:hover,
+.woocommerce input.button.alt:disabled,
+.woocommerce input.button.alt:disabled:hover,
+.woocommerce input.button.alt[disabled]:disabled,
+.woocommerce input.button.alt[disabled]:disabled:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover {
+    background-color: #727272
+}
+
+#tophead {
+    background-color: #a3a3a3
+}
+
+.top-news-title {
+    background-color: #dd0000
+}
+
+.top-news-title::after {
+    border-left-color: #dd0000
+}
+
+#masthead,
+.site-header.fixed #main-nav {
+    background-color: #707070
+}
+
+#main-nav {
+    background-color: #727272
+}
+
+#main-nav ul li a,
+.dropdown-toggle::after {
+    color: #ffffff
+}
+
+#main-nav ul li a:hover,
+#main-nav li.current-menu-item>a,
+#main-nav li.current_page_item>a,
+#main-nav ul li:hover>a {
+    color: #000000
+}
+
+.main-navigation li a:hover,
+.main-navigation li.current-menu-item a,
+.main-navigation li.current_page_item a,
+.main-navigation li:hover>a,
+#main-nav ul ul {
+    background-color: #a3a3a3
+}
+
+#content {
+    background-color: #ffffff
+}
+
+#main-slider .cycle-prev,
+#main-slider .cycle-next {
+    background-color: #a3a3a3
+}
+
+#main-slider .cycle-prev,
+#main-slider .cycle-next {
+    border-color: #a3a3a3
+}
+
+#main-slider .cycle-prev:hover,
+#main-slider .cycle-next:hover {
+    background-color: #707070
+}
+
+#main-slider .cycle-prev:hover,
+#main-slider .cycle-next:hover {
+    border-color: #707070
+}
+
+#main-slider .pager-box:hover,
+#main-slider .pager-box.cycle-pager-active {
+    background-color: #dd0000
+}
+
+#main-slider .slider-buttons .button-primary {
+    background-color: #a3a3a3
+}
+
+#colophon {
+    background-color: #dd0000
+}
+
+#btn-scrollup {
+    background-color: #a3a3a3
+}
+
+#btn-scrollup:hover {
+    background-color: #707070
+}
+
+#front-page-home-sections .home-section-news-and-events {
+    background-color: #ffffff
+}
+
+#front-page-home-sections .home-section-news-and-events h2 {
+    color: #000000
+}
+
+#front-page-home-sections .home-section-news-and-events p {
+    color: #000000
+}
+
+#front-page-home-sections .home-section-news-and-events h3 a {
+    color: #a3a3a3
+}
+
+#front-page-home-sections .home-section-news-and-events h3 a:hover {
+    color: #dd0000
+}
+
+#front-page-home-sections .home-section-news-and-events .block-meta span,
+.home-section-news-and-events .block-meta span::before,
+.home-section-news-and-events .block-meta a {
+    color: #707070
+}
+
+#front-page-home-sections .home-section-news-and-events .custom-entry-date span.entry-day {
+    background-color: #dd0000
+}
+
+#front-page-home-sections .home-section-news-and-events .custom-entry-date span.entry-month {
+    background-color: #aa0500
+}
+
+#front-page-home-sections .custom-entry-date span.entry-day {
+    text-shadow: #aa0500 1px 1px, #aa0500 2px 2px, #aa0500 3px 3px, #aa0500 4px 4px, #aa0500 5px 5px, #aa0500 6px 6px, #aa0500 7px 7px, #aa0500 8px 8px, #aa0500 9px 9px, #aa0500 10px 10px, #aa0500 11px 11px, #aa0500 12px 12px, #aa0500 13px 13px, #aa0500 14px 14px, #aa0500 15px 15px, #aa0500 16px 16px, #aa0500 17px 17px, #aa0500 18px 18px, #aa0500 19px 19px, #aa0500 20px 20px, #aa0500 21px 21px, #aa0500 22px 22px, #aa0500 23px 23px, #aa0500 24px 24px, #aa0500 25px 25px, #aa0500 26px 26px, #aa0500 27px 27px, #aa0500 28px 28px, #aa0500 29px 29px, #aa0500 30px 30px, #aa0500 31px 31px, #aa0500 32px 32px, #aa0500 33px 33px, #aa0500 34px 34px, #aa0500 35px 35px, #aa0500 36px 36px, #aa0500 37px 37px, #aa0500 38px 38px, #aa0500 39px 39px, #aa0500 40px 40px, #aa0500 41px 41px, #aa0500 42px 42px, #aa0500 43px 43px, #aa0500 44px 44px, #aa0500 45px 45px, #aa0500 46px 46px, #aa0500 47px 47px, #aa0500 48px 48px, #aa0500 49px 49px, #aa0500 50px 50px, #aa0500 51px 51px, #aa0500 52px 52px, #aa0500 53px 53px, #aa0500 54px 54px, #aa0500 55px 55px, #aa0500 56px 56px, #aa0500 57px 57px, #aa0500 58px 58px;
+}
+
+#footer-widgets {
+    background-color: #a3a3a3
+}

@@ -1,0 +1,231 @@
+/* =Header*/
+
+
+/* =====================================*/
+
+
+/*Dropdown Transition Placeholder*/
+
+.news-post-date {}
+
+.right-ne {}
+
+.homapage-event .col-event .event-box {
+    height: 190px;
+}
+
+img.avatar {
+    border-radius: 90px;
+    overflow: hidden;
+}
+
+body .section-title {
+    margin-bottom: 20px;
+    padding: 0px 15px;
+}
+
+.ul-latest-news p {
+    display: none;
+}
+
+.ul-latest-news,
+.ul-event {
+    padding: 15px 5px 3px;
+    background: #f6f6f6;
+    border-radius: 5px;
+}
+
+.ul-study-programs ul.sp-wrap {
+    padding: 15px 15px;
+    background: #fff;
+    margin-bottom: 2px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.box-of-lecture {
+    position: relative;
+    padding-left: 60px;
+}
+
+.box-of-lecture .left-ne {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 100%;
+    /*border: 1px solid #f50;
+padding: 1px;*/
+}
+
+.box-of-lecture .left-ne img {}
+
+.box-of-lecture .right {}
+
+.box-of-lecture .lecture-post-info {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.item-news-event {
+    padding: 15px 15px;
+    background: #fff;
+    margin-bottom: 2px;
+    border-bottom: 1px solid #d4d4d4;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.ul-latest-news .item-news-event:hover h4,
+.ul-event .item-news-event:hover h4 {}
+
+.item-news-event:hover {
+    background: #f6f6f6;
+    border-bottom: 1px solid #ffffff;
+}
+
+.ul-study-programs {
+    padding: 15px 5px 3px;
+    background: #f6f6f6;
+    border-radius: 5px;
+}
+
+
+/* end style setion a */
+
+.homapage-event .col-event .event-box .eb-bottom h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    line-height: normal;
+}
+
+.section-a {
+    padding: 50px 0px 50px;
+}
+
+section.home-slider {
+    display: block;
+}
+
+img[alt="StatCounter - Free Web Tracker and Counter"] {
+    display: none;
+}
+
+.section-title {
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.section-title h2 {
+    color: #051829;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: -1px !important;
+    padding-bottom: 11px;
+    display: inline-block;
+}
+
+.line-heading {
+    height: 3px;
+    width: 50px;
+    background-color: #f50;
+    position: relative;
+    bottom: -2px;
+}
+
+.ul-study-programs ul li.sp-heading {
+    font-size: 16px;
+    font-weight: 600;
+    list-style: none;
+    color: #ff5500;
+}
+
+.ul-study-programs ul {
+    margin-left: 0px;
+    padding: 10px 10px;
+}
+
+.ul-study-programs a:hover {
+    text-decoration: underline;
+}
+
+.ul-study-programs ul ul {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.ul-latest-news h4,
+.ul-event h4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    /*color: #ff5500;*/
+}
+
+.ul-latest-news p,
+.ul-event p {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.item-news-event {
+    padding-bottom: 10px;
+}
+
+.item-news-event .date-event-bottom {
+    padding: 1px 10px;
+    border-radius: 90px;
+    background: #fffffff;
+    font-size: 12px;
+    display: inline-block;
+    font-weight: 600;
+    color: #051829;
+    border: 1px solid #f50000;
+    margin-top: 5px;
+}
+
+.item-news-event .date-event-bottom .far {
+    padding-right: 5px !important color;
+    #f50000;
+}
+
+.ul-study-programs li.sep {
+    padding-bottom: 10px;
+    height: 0px;
+    list-style: none;
+    margin: 0px;
+}
+
+section.homepage-calendar .wrap-hc-container .wrap-hc .date-event-bottom {
+    padding: 5px 15px;
+}
+
+.morepart {
+    padding: 10px;
+    font-weight: 600;
+    text-align: right;
+    color: #090909;
+    display: block;
+}
+
+.morepart:hover {
+    color: #ff5500
+}
+
+.morepart .right-circle {
+    line-height: normal;
+    margin-left: 5px;
+    font-size: 9px;
+    color: #222;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+}
